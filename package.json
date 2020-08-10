@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/HXF-A/vuepress/issues"
   },
-  "homepage": "https://github.com/HXF-A/vuepress#readme"
+  "homepage": "https://github.com/HXF-A/vuepress#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
 }
