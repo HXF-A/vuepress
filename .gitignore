@@ -18,3 +18,4 @@ help.md
 /build/
  
 application.properties
+secret.js
