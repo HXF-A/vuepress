@@ -1,7 +1,7 @@
 const moment = require('moment');
 
 module.exports = {
-    base: "/docs/",
+    base: "/vuepress/",
     title: "博客",
     description: "han",
     head: [
@@ -17,6 +17,16 @@ module.exports = {
             // 不要忘了安装 moment
             moment.locale(lang)
             return moment(timestamp).format('LLLL')
+          }
+        }
+      ],
+      [
+        '@vuepress/pwa',
+        {
+          serviceWorker: true,
+          updatePopup: {
+            message: "发现新内容",
+            buttonText: "Refresh"
           }
         }
       ]
