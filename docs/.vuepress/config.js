@@ -6,8 +6,11 @@ module.exports = {
   base: "/vuepress/",
   title: "博客",
   description: "han",
+  dest: "public",
   head: headConf,
   plugins: pluginConf,
+  search: true,
+  searchMaxSuggestions: 10,
   themeConfig: {
     logo: "/assets/img/logo.png",
     lastUpdated: "Last Updated", //git更新时间

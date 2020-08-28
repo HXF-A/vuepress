@@ -8,13 +8,6 @@ module.exports = {
         return moment(timestamp).format("LLLL");
       },
     },
-    "@vuepress/pwa": {
-      serviceWorker: true,
-      updatePopup: {
-        message: "发现新内容",
-        buttonText: "Refresh",
-      },
-    },
     '@vssue/vuepress-plugin-vssue': {
       // set `platform` rather than `api`
       platform: 'github-v4',
@@ -27,4 +20,16 @@ module.exports = {
       autoCreateIssue: true
     },
     '@vuepress/back-to-top': true,
-  }
+    '@vuepress/blog': {
+        directories: [
+            {
+            // Unique ID of current classification
+            id: 'post',
+            // Target directory
+            dirname: 'blogs',
+            // Path of the `entry page` (or `list page`)
+            path: '/blogs',
+            },
+        ],
+    }
+}
