@@ -1,7 +1,7 @@
 const moment = require('moment');
 
 module.exports = {
-    base: "/",
+    base: "/docs/",
     title: "博客",
     description: "han",
     head: [
