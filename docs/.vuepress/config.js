@@ -1,7 +1,7 @@
 const moment = require('moment');
 
 module.exports = {
-    base: "/vuepress/",
+    base: "/",
     title: "博客",
     description: "han",
     head: [
