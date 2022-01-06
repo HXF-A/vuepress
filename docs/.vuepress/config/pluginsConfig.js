@@ -1,5 +1,5 @@
 const moment = require("moment");
-const secret = require('./secret')
+// const secret = require('./secret')
 module.exports = {
     "@vuepress/last-updated": {
       transformer: (timestamp, lang) => {
@@ -15,8 +15,8 @@ module.exports = {
       // all other options of Vssue are allowed
       owner: 'HXF-A',
       repo: 'vuepress',
-      clientId: secret.clientId,
-      clientSecret: secret.clientSecret,
+      clientId: '2de4084bd53f1f7229f8',
+      clientSecret: 'd278aedab52b9f7ccef968d403786c460f63fd44',
       autoCreateIssue: true
     },
     '@vuepress/back-to-top': true,
