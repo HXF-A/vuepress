@@ -3,7 +3,7 @@ const pluginConf = require('./config/pluginsConfig');
 const navConf = require('./config/navConfig');
 const sidebarConf = require('./config/sidebarConfig');
 module.exports = {
-  base: "/vuepress/",
+  base: "/docs/",
   title: "博客",
   description: "han",
   dest: "public",
